@@ -117,6 +117,8 @@ input{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}.login-option>span>a {
+    text-decoration: none;
 }
 .or{
     margin-top: 32px;
