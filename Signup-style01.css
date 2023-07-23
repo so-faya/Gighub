@@ -3,15 +3,15 @@ body{
     padding: 0;
     background-color: #f0eeee;
 }
-
-#log {
-    height: 200px;
-    width: 50%;
-}
-
 .logincontainer{
     display: flex;
     height: 100vh;
+}
+#log {
+    flex-basis: 50%;
+}
+#log>img{
+    width: 100%;
 }
 .login{
     display: flex;
@@ -63,36 +63,49 @@ body{
     line-height: normal;
 }
 
-
-#pass {
-    padding-right: 10px;
-    text-align: center;
+#inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    margin-bottom: 32px;
 }
-
-.login-link {
-    color: #A812C0;
-    background-color: #A812C0;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-bottom: 5px;
-    padding-top: 2px;
-    border: 3px solid var(--new-pry, #e8a8f0);
-    border-radius: 20px;
-    box-shadow: 15px 8px 2px 0px rgba(3, 0, 0, 0.05);
+input{
+    width: 12px;
+    height: 20px;
+    padding: 10px 14px;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid var(--new-pry, #A812C0);
+    background: #FCFCFC;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+input:focus{
+    border: 1px solid deepskyble;
+    outline: none;
+}
+#pass>button{
+    display: flex;
+    width: 100%;
+    padding: 8px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    border-radius: 5px;
+    border: 1px solid var(--new-pry, #A812C0);
+    background: var(--new-pry, #A812C0);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
     
 }
-
-.login-link2{
-    text-align: center;
-    font-size: larger;
-    color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+#pass>button>a{
+    text-decoration: none;
+    color: #FCFCFC;
+    font-family: Campton;
+    font-size: 18px;
     font-style: normal;
-    font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
-    letter-spacing: 0.72px;
-    
 }
 
