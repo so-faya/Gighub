@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login page</title>
+    <title>verify account</title>
     <link rel="stylesheet" href="Signup-style01.css" />
   </head>
   <body>
     <div class="logincontainer">
+      <!-- image section -->
       <div id="log">
         <img src="Signup-image.png" />
       </div>
 
+      <!-- login section -->
       <div class="login">
         <svg
           width="78"
@@ -74,26 +76,28 @@
 
         <h1 class="login-head">Please verify account</h1>
         <br />
+
         <p class="login-option">
           Enter the six digit code we sent to <br />your email address to verify
           your<br />
           email address.
         </p>
 
-        <br />
         <form id="pass">
-          <input type="password" placeholder="123456" maxlength="6" />
+          <div id='inputs'>
+            <input id='input1' type='text' maxLength="1" />
+            <input id='input2' type='text' maxLength="1" />
+            <input id='input3' type='text' maxLength="1" />
+            <input id='input4' type='text' maxLength="1" />
+            <input id='input5' type='text' maxLength="1" />
+            <input id='input6' type='text' maxLength="1" />
+          </div>
+          <button><a href="login.html">Verify and continue</a></button>
+
         </form>
 
-        <br />
-        <br />
-        <a href="" class="login-link">
-          <p class="login-link2">Verify and continue</p>
-        </a>
       </div>
-
-      <div></div>
     </div>
-    <div></div>
+
   </body>
 </html>
