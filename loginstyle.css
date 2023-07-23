@@ -69,6 +69,7 @@ input{
     border: 1px solid #D0D5DD;
     background: #FFF;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    margin-bottom: 6px;
 }
 #forgot-password{
     margin-left: 190px;
@@ -155,6 +156,7 @@ input{
     border: 1px solid var(--new-pry, #A812C0);
     background: #FFF;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+ 
 }
 .continue-guestt{
     color: var(--new-pry, #A812C0);
