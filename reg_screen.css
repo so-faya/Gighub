@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 1px solid red;
+    display: flex;
+    height: 100vh;
+}
+.img-holder{
+    background-image: url(image/pexels-andrea-piacquadio-3764178.jpg);
+    background-position: right;
+    background-size: cover;
+    flex-basis: 45%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.reg-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 55%;
+    background: #630A71;
+}
+.reg-part-hd{
+    color: #A812C0;
+    font-family: Open Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+.reg-part-hd>span{
+    color: #FFF;
+}
+.reg-part-para{
+    color: #FFFDFD;
+    font-family: Cambria;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.pattern-one,.pattern-two{
+    display: flex;
+    justify-content: space-evenly;
+}
+.identity,.submit{
+    flex-basis: 35%;
+}
+.identity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 282px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFFDFD;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+ .identity-hd{
+    color: rgb(10, 9, 9);
+    font-family: Cambria;
+    font-size: 18.246px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.066px;
+}
+.identity-para{
+    color: #000;
+    font-family: Cambria;
+    font-size: 18.246px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.066px;
+    text-align: center;
+}
+.submit{
+    text-align: center;
+    border-radius: 6.222px;
+    border: 0.778px solid var(--new-pry, #A812C0);
+    box-shadow: 0px 0.7777777910232544px 1.5555555820465088px 0px rgba(16, 24, 40, 0.05); 
+    padding: 7px 8px; 
+}
+.submit>a{
+    text-decoration: none;
+    color: #FFFDFD;
+    font-family: Cambria;
+    font-size: 10.889px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.556px;
+}
+.option{
+    text-align: center;
+    color: #FFFDFD;
+    font-family: Cambria;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.option>span>a{
+    color: var(--new-pry, #A812C0);
+    font-family: Open Sans;
+    text-decoration: none;
+}
