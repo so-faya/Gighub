@@ -158,7 +158,6 @@ input{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* gap: 9.853px; */
     border-radius: 14.779px;
     border: 0.985px solid var(--neutral-colors-500, #E0E0E9);
     background: var(--neutral-colors-white, #FFF);
