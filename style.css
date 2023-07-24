@@ -70,7 +70,7 @@ label{
 } 
 input{
     display: flex;
-    padding: 5px 7px;
+    padding: 10px 14px;
     align-self: stretch;
     border-radius: 5px;
     border: 1px solid rgba(44, 44, 44, 0.50);
@@ -96,7 +96,7 @@ input{
 }
 .create-button{
     display: flex;
-    padding: 5px 7px;
+    padding: 10px 14px;
     justify-content: center;
     align-items: center;
     gap: 8px;
